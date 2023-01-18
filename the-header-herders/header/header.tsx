@@ -1,17 +1,18 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
+import { menuContent } from '@teambit/design.ui.navigation.menu';
+import { Logo } from '@teambit/design.ui.brand.logo';
+import { Header as BaseHeader } from '@teambit/design.blocks.header';
 
-export type HeaderProps = {
-  /**
-   * a node to be rendered in the special component.
-   * change header and test github actions
-   */
-  children?: ReactNode;
-};
-
-export function Header({ children }: HeaderProps) {
+export const Header = () => {
   return (
-    <div>
-      {children}
-    </div>
+    <BaseHeader
+      data-testid="header"
+      menuLinks={menuContent}
+      logo={
+        <a href="https://bit.cloud">
+          <Logo />
+        </a>
+      }
+    />
   );
-}
+};

@@ -11,24 +11,24 @@
 {
     "apps/mfe-ftw": {
         "scope": "we-are-the-champions.the-app-timizers",
-        "version": "0.0.11",
+        "version": "0.0.13",
         "mainFile": "index.ts",
         "rootDir": "the-app-timizers/apps/mfe-ftw",
         "nextVersion": {
             "version": "patch",
-            "message": "my message (bump dependencies versions)",
+            "message": "update header (bump dependencies versions)",
             "username": "nitsan770",
             "email": "77798308+NitsanCohen770@users.noreply.github.com"
         }
     },
     "header": {
         "scope": "we-are-the-champions.the-header-herders",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "the-header-herders/header",
         "nextVersion": {
             "version": "patch",
-            "message": "my message",
+            "message": "update header",
             "username": "nitsan770",
             "email": "77798308+NitsanCohen770@users.noreply.github.com"
         }

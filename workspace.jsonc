@@ -39,6 +39,9 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@teambit/design.blocks.header": "1.96.7",
+        "@teambit/design.ui.brand.logo": "1.96.5",
+        "@teambit/design.ui.navigation.menu": "1.96.7",
         "@teambit/eslint-config-bit-react": "~0.0.367",
         "@typescript-eslint/eslint-plugin": "5.35.1",
         "eslint-import-resolver-node": "0.3.6",
