@@ -15,11 +15,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Set @bit:registry to use
+        run: npm config set "@bit:registry" "https://node.bit.cloud"
       - name: Use Node.js 16
         uses: actions/setup-node@v1
         with:
           node-version: 16.x
-          registry-url: https://node.bit.cloud
       - name: Install Bit Version Manager
         run: npm i -g @teambit/bvm
       - name: Install latest Bit version
