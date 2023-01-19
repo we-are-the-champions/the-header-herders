@@ -11,34 +11,15 @@
 {
     "apps/mfe-ftw": {
         "scope": "we-are-the-champions.the-app-timizers",
-        "version": "0.0.13",
+        "version": "0.0.14",
         "mainFile": "index.ts",
-        "rootDir": "the-app-timizers/apps/mfe-ftw",
-        "nextVersion": {
-            "version": "patch",
-            "message": "update header (bump dependencies versions)",
-            "username": "nitsan770",
-            "email": "77798308+NitsanCohen770@users.noreply.github.com"
-        }
+        "rootDir": "the-app-timizers/apps/mfe-ftw"
     },
     "header": {
         "scope": "we-are-the-champions.the-header-herders",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
-        "rootDir": "the-header-herders/header",
-        "nextVersion": {
-            "version": "patch",
-            "message": "update header",
-            "username": "nitsan770",
-            "email": "77798308+NitsanCohen770@users.noreply.github.com"
-        },
-        "config": {
-            "teambit.react/react": "-",
-            "teambit.envs/envs": {
-                "env": "teambit.community/envs/community-react"
-            },
-            "teambit.community/envs/community-react@2.1.14": {}
-        }
+        "rootDir": "the-header-herders/header"
     },
     "$schema-version": "15.0.0"
 }
