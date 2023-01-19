@@ -66,5 +66,6 @@
    * wrap the rule with curly brackets (e.g. `"{ui/*}": {}`)
    * see https://bit.dev/docs/workspace/variants for more info.
    **/
-  "teambit.workspace/variants": {}
+  "teambit.workspace/variants": {},
+  "we-are-the-champions.the-app-timizers/apps/champions-app": {}
 }

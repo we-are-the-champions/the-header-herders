@@ -1,1 +1,1 @@
-export { MfeFtwApp } from './app';
+export { ChampionsApp } from './app';
