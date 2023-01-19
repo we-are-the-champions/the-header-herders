@@ -9,11 +9,37 @@
  */
 
 {
-    "apps/mfe-ftw": {
-        "scope": "we-are-the-champions.the-app-timizers",
-        "version": "0.0.14",
+    "apps/champions-app": {
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "the-app-timizers/apps/mfe-ftw"
+        "rootDir": "the-app-timizers/apps/champions-app",
+        "nextVersion": {
+            "version": "patch",
+            "message": "rename app",
+            "username": "nitsan770",
+            "email": "77798308+NitsanCohen770@users.noreply.github.com"
+        },
+        "config": {
+            "teambit.harmony/aspect": {},
+            "teambit.envs/envs": {
+                "env": "teambit.harmony/aspect"
+            },
+            "teambit.dependencies/dependency-resolver": {},
+            "teambit.harmony/application": {},
+            "teambit.compositions/compositions": {},
+            "teambit.docs/docs": {},
+            "teambit.preview/preview": {},
+            "teambit.component/dev-files": {},
+            "teambit.pipelines/builder": {},
+            "teambit.component/renaming": {
+                "renamedFrom": {
+                    "scope": "we-are-the-champions.the-app-timizers",
+                    "name": "apps/mfe-ftw",
+                    "version": "0.0.14"
+                }
+            }
+        }
     },
     "header": {
         "scope": "we-are-the-champions.the-header-herders",
