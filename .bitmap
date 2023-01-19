@@ -11,9 +11,19 @@
 {
     "apps/champions-app": {
         "scope": "we-are-the-champions.the-app-timizers",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "the-app-timizers/apps/champions-app"
+        "rootDir": "the-app-timizers/apps/champions-app",
+        "config": {
+            "teambit.dependencies/dependency-resolver": {
+                "policy": {
+                    "peerDependencies": {
+                        "react-router-dom": "6.7.0"
+                    },
+                    "dependencies": {}
+                }
+            }
+        }
     },
     "header": {
         "scope": "we-are-the-champions.the-header-herders",
