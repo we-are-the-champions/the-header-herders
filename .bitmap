@@ -31,6 +31,13 @@
             "message": "update header",
             "username": "nitsan770",
             "email": "77798308+NitsanCohen770@users.noreply.github.com"
+        },
+        "config": {
+            "teambit.react/react": "-",
+            "teambit.envs/envs": {
+                "env": "teambit.community/envs/community-react"
+            },
+            "teambit.community/envs/community-react@2.1.14": {}
         }
     },
     "$schema-version": "15.0.0"
