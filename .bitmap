@@ -25,7 +25,16 @@
             "teambit.envs/envs": {
                 "env": "teambit.harmony/aspect"
             },
-            "teambit.dependencies/dependency-resolver": {},
+            "teambit.dependencies/dependency-resolver": {
+                "policy": {
+                    "peerDependencies": {
+                        "react-router-dom": "6.7.0"
+                    },
+                    "dependencies": {
+                        "@we-are-the-champions/the-page-turners.pages.best-page-forever": "0.0.11"
+                    }
+                }
+            },
             "teambit.harmony/application": {},
             "teambit.compositions/compositions": {},
             "teambit.docs/docs": {},
